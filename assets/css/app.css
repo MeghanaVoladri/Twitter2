@@ -1,0 +1,179 @@
+/* This file is for your main application css. */
+
+#tweet-list {
+    border: 1px solid #777;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    overflow: scroll;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+#tweets {
+    /* color: white; */
+}
+
+.font1 {
+    font-weight: 900;
+    color: white;
+}
+
+.font2 {
+    font-weight: 600;
+    color: rgb(68, 64, 64);
+}
+
+.display {
+    background: rgb(225, 233, 240);
+}
+
+#unlog {
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(10, 1, 1);
+}
+
+.mentions-list {
+    /* border: 1px solid #777; */
+    border: 5px solid rgb(216, 208, 208);
+    border-style: ridge;
+    height: 100px;
+    width: 405px;
+    padding: 5px;
+    overflow: scroll;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: justify;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+/* .boxSub{
+  display: inline-block; 
+  height: 92px;
+  width: 405px;
+  padding: 5px;
+  vertical-align:justify;
+  margin: 0 auto
+  
+  
+} */
+
+#button-retweet {
+    border: 1px solid #777;
+    height: 30px;
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#tdright {
+    text-align: top;
+    width: 100px;
+}
+
+.signupPart {
+    border: 1px solid green;
+    border-style: ridge;
+    /* height: 30px; */
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    width: 400px;
+    font: 'Times New Roman';
+    background-color: rgba(58, 71, 146, 0.301);
+}
+
+.dash {
+    /* border: 1px solid green; */
+    border-style: ridge;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+    width: 830px
+}
+
+.box {
+    display: inline-block;
+    /* width: 300px; */
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    /* vertical-align:justify; */
+    margin: 0 auto
+}
+
+.qtwitter {
+    background: rgb(245, 248, 250);
+    color: white;
+}
+
+.box1 {
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    vertical-align: justify;
+    margin: 0 auto
+}
+
+.box2 {
+    display: inline-block;
+    /* width: 300px;
+  margin-left: 10px;
+  margin-top: 10px; */
+    padding: 5px;
+    vertical-align: justify;
+    margin: 0 auto
+}
+
+#signupPart {
+    border: 1px solid #777;
+    /* height: 30px; */
+    padding: 5px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+}
+
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Facebook */
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: rgb(237, 240, 241);
+    color: white;
+}

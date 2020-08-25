@@ -1,0 +1,65 @@
+<div class="dashboardPart">
+   <header>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </header>
+   <div class="dash">
+      <div class="panel right" style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+         <i><center/><input id="tweetContent" size=83 placeholder="Tweet here" type="text"></i>
+         <button id="tweetButton">Tweet!</button></label>
+      </div>
+      </br>
+	   <div style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto;">
+            <label>
+               
+               </br></br>
+            </label>
+            <i>
+               <div id="queryArea" class ='mentions-list' style = "width: 310px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >Feed</div>
+            </i>
+			</br> </br>
+			<button id="queryButton">Query Tweets</button>
+         </div>
+		 <div style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+            <input id="username2" placeholder = "Username" style="display: inline-block;width: 300px;"type="text">
+            <button id="followButton">Subscribe</button>
+            </br> </br>
+            <div>
+               <i>
+                  <div id="followsArea" class ='mentions-list' style="width: 380px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >Subscriptions!!</div>
+               </i>
+            </div>
+        
+      </div>
+
+     
+      <div id="tweets" style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+         <div id='tweet-list' class='row' style="background: white;">
+         </div>
+         <input type="submit" id="retweetButton" value="Retweet!">					
+      </div>
+         
+      <div class="mentionshashtagspart" style="top:0px;bottom:0px;display:inline-block;width:820px;position: relative;;text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+         <div style="position: relative;text-align: left;">
+         </div>
+         <i>
+         <div id="mentionsArea" class ='mentions-list' style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >Tweets with mentions</div>
+		 </br>
+		 </br>
+		  <button id="mentionsButton">Mentioned tweets</button>
+      </div>
+	   <div class="mentionshashtagspart" style="display:inline-block;width:820px;text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+         <div style="text-align: left">
+            <label>
+               <input id="hashtag" style="width:650px" placeholder = "Search hashtag" type="text">
+               
+               <button id="hashtagButton">Search</button>
+			   </br></br>
+            </label>
+         </div>
+         <i>
+            <div id= "hashtagArea" style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" class='mentions-list'>Tweets with #Hashtags</div>
+         </i>
+      </div>
+	 
+   </div>
+</div>

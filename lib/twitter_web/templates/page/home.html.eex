@@ -1,0 +1,25 @@
+<div class = "home">
+			<center><h4><b/>Log In</h4>
+			<div id='unlog' class='row'></div>
+				<input id="username" placeholder = "Username" type="text"><br/>
+				<br/><input id="password" placeholder = "Password" type="password"><br/>
+				<br/><button id="signin">Sign In</button>
+			</center>
+		</div>
+
+	</br></br>
+	<div>
+		<div>
+			<div class="home">
+				<center><h4><b/>Sign Up</h4>
+				<p>
+						<input id="new_username" placeholder = "Username" type="text"><br/>
+						<br/><input id="new_password" placeholder = "Password" type="password"><br/>
+						<br/><input id="signup" type="submit" value="Create Account">
+				</p>
+				</center>
+			</div>
+		</div>
+	</div>
+
+		
